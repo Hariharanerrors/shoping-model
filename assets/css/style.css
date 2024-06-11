@@ -1,0 +1,367 @@
+
+
+.navbar-brand{
+    font-weight: 600;
+    margin-left: 204px;
+}
+
+.navbar-nav {
+    margin: 4px 444px;
+}
+.nav-item {
+    margin: 0px 6px;
+}
+.linkd{
+    color: black !important;
+}
+.nav-link {
+    color: red !important;
+    font-weight: 600;
+}
+.active {
+    color: black !important;
+}
+.nav-link:hover{
+    color: black !important;
+}
+.form-nav input {
+    border-block-style: none;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.form-nav button {
+    padding: 5px 9px;
+    background: black;
+    color: white;
+}
+.form-dic {
+    position: absolute;
+    top: 10px;
+    right: 288px;
+}
+.carousel-caption h5 {
+    color: black;
+    font-weight: 700;
+
+}
+.carousel-caption p{
+    color: black;
+}
+.carousel-caption{
+    position: absolute;
+    top: 275px;
+    left: 52px;
+}
+.carousel-caption a {
+    color: white;
+    background: red;
+    padding: 6px;
+    border-radius: 4px;
+}
+.banner-col img   {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.banner-col h5{
+    text-align: center;
+    padding: 11px;
+    color: red;
+}
+
+.coll-h {
+    text-align: center;
+    margin: 20px;
+    font-weight: 500;
+    color: orangered;
+}
+.filter-button {
+    border: unset;
+    background: none;
+    margin-left: 8px;
+}
+.filter-button:hover   {
+    color: #008bd1;
+}
+.portfolio-gird img {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+.portfolio-col {
+    margin-bottom: 30px;
+}
+.inst-pic img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.did {
+    height: 100% !important;
+    width: 73% !important;
+    overflow: hidden;
+}
+.insta-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+}
+.insta2-col  {
+    text-align: center;
+    margin-top: 40px;
+}
+.insta2-col p  {
+    padding: 50px;
+}
+.insta2-col h2  {
+    color: red;
+}
+.latest {
+    text-align: center;
+    padding: 23px;
+}
+.blog {
+	padding-bottom: 55px;
+}
+
+.latest {
+	padding-bottom: 55px;
+}
+
+.blog__item {
+	margin-bottom: 45px;
+}
+
+.blog__item:hover a::after {
+	width: 40px;
+	background: #e53637;
+}
+
+.blog__item:hover .blog__item__text {
+	-webkit-box-shadow: 0px 15px 60px rgba(67, 69, 70, 0.05);
+	box-shadow: 0px 15px 60px rgba(67, 69, 70, 0.05);
+}
+
+.blog__item__pic {
+	height: 270px;
+}
+
+.blog__item__text {
+	padding: 30px 30px 25px;
+	margin: 0 30px;
+	margin-top: -35px;
+	background: #ffffff;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.blog__item__text span {
+	color: #3d3d3d;
+	font-size: 13px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.blog__item__text span img {
+	margin-right: 6px;
+}
+
+.blog__item__text h5 {
+	color: #0d0d0d;
+	font-weight: 700;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+.blog__item__text a {
+	display: inline-block;
+	color: #111111;
+	font-size: 13px;
+    text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	padding: 3px 0;
+	position: relative;
+}
+
+.blog__item__text a:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: #111111;
+	content: "";
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+.section-title span {
+    color: #e53637;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    display: block;
+}
+.section-title h2 {
+    color: #111111;
+    line-height: 46px;
+}
+footer {
+    padding: 7em 0;
+}
+.footer-03 {
+    background: #f8f1f1;
+    font-size: 14px;
+}
+.footer-row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.footer-03 .footer-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: black;
+}
+.fotter-p {
+    color: rgba(0, 0, 0, 0.3);
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-03 .list-unstyled li a {
+    color: rgba(0, 0, 0, 0.3);
+}
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+.footer-03 .ftco-footer-social li a {
+    color: #f17e7e;
+}
+.ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    position: relative;
+}
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.footer-03 .footer-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.footer-03 .subscribe-form .form-group {
+    position: relative;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.footer-03 .subscribe-form .form-group input {
+    background: rgba(0, 0, 0, 0.05) !important;
+    border: none !important;
+    outline: none !important;
+    color: rgba(0, 0, 0, 0.3) !important;
+    font-size: 16px;
+    border-radius: 0;
+}
+.footer-03 .subscribe-form .form-group .submit {
+    color: #fff !important;
+    display: block;
+    width: 130px;
+    height: 37px;
+    font-size: 16px;
+    background: #f17e7e !important;
+    border: none;
+    border-radius: 0;
+}
+.footer-03 .copyright {
+    color: rgba(0, 0, 0, 0.4);
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-03 a {
+    color: #f17e7e;
+}
+@media screen and (max-width:1000px) {
+    .carousel-caption {
+        position: absolute;
+        top: 135px;
+        left: 0px;
+    }
+    .navbar-nav {
+        margin: 4px 264px;
+    }
+    .coll-h {
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width:720px) {
+.navbar-nav {
+    margin: 0px 0px;
+    text-align: center;
+}
+.row {
+    flex-direction: column;
+}
+.carousel-caption {
+    position: absolute;
+    top: 28px;
+    left: -49px;
+    font-size: 6px;
+}
+.form-dic {
+    position: absolute;
+    top: 8px;
+    right: 40px;
+}
+.coll-h {
+    font-size: 23px;
+}
+.insta-col {
+    display: grid;
+    grid-template-columns: 6fr;
+}
+.insta-img {
+    height: 100%;
+    width: 100%;
+}
+.insta2-col p {
+    padding: 9px;
+}
+.hero element.style {
+    margin-top: 64px;
+}
+.navbar-brand {
+    margin-left: 0px;
+}
+}
