@@ -212,7 +212,7 @@
     line-height: 46px;
 }
 footer {
-    padding: 7em 0;
+    padding: 1em 0;
 }
 .footer-03 {
     background: #f8f1f1;
@@ -322,7 +322,15 @@ footer {
     .coll-h {
         font-size: 30px;
     }
-    
+    .img-row {
+        flex-direction: column;
+    }
+    .img-row {
+        flex-direction: column;
+        float: right;
+        position: relative;
+        left: 24px;
+    }
 }
 
 @media screen and (max-width:720px) {
@@ -363,5 +371,11 @@ footer {
 }
 .navbar-brand {
     margin-left: 0px;
+}
+main  {
+    margin-top: 64px;
+}
+footer {
+    padding: 0em 0;
 }
 }
